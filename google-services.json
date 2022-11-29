@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422661746750",
+    "project_id": "maudeal-d213e",
+    "storage_bucket": "maudeal-d213e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422661746750:android:8133d96a33aaf428eda16f",
+        "android_client_info": {
+          "package_name": "com.maudeal.mauritius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422661746750-932pck6dbfmrr7en6grt0km8ju6bipmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCph8gpj_tQWPfCPxbAAIpFawz6yvpVat0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422661746750-932pck6dbfmrr7en6grt0km8ju6bipmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

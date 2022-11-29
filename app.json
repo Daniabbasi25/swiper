@@ -1,0 +1,94 @@
+{
+  "expo": {
+    "name": "MauDeal",
+    "slug": "maudeal",
+    "version": "1.0.2",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ],
+      [
+        "expo-ads-admob",{
+          "userTrackingPermission":"App would like to track you to access Identifier for Advertisers(IDEA)"
+        }
+      ]
+     
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#DD0000",
+      "resizeMode": "contain"
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maudeal.mauritius",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSLocationWhenInUseUsageDescription": "This app usages device location on listing information, Listing search Data and User information.",
+        "CFBundleAllowMixedLocalizations": true,
+        "UIBackgroundModes": ["remote-notification"]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyB_ctggRg2rXoutTP7dAOwLEE8y_8ZzWRA",
+        "googleMobileAdsAppId":"ca-app-pub-4634391177643736~1041514152"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.maudeal.mauritius",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB_ctggRg2rXoutTP7dAOwLEE8y_8ZzWRA"
+        },
+        "googleMobileAdsAppId":"ca-app-pub-4634391177643736~1041514152"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "versionCode": 2
+    },
+    "facebookScheme": "fb319269513458188",
+    "facebookAppId": "319269513458188",
+    "facebookDisplayName": "MauDeal",
+    "scheme": "maudeal"
+  }
+}
